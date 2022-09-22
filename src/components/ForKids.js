@@ -3,7 +3,7 @@ import React from "react";
 import {Box, Heading, Text, Stack, Image} from '@chakra-ui/react'
 import ArrowMoveDown from "./ArrowMouseDown";
 
-
+import Cartoon from '../video/Cartoon.gif'
 
 
 
@@ -22,7 +22,7 @@ function ForKids (){
                 </Stack>
                 <Stack  w="600px" h="300px" >
                     <Box bgImage="/TVFrame.png" backgroundSize="cover" w="500px" h="350px" pl="5px" pr="5px" pt="1" >
-                        <Image src="/cartoon.gif"/>
+                        <Image src={Cartoon}/>
                     </Box>
                 </Stack>
         
