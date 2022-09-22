@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-import AlitaBattleAngel from '../images/AlitaBattleAngel.mp4'
+import AlitaBattleAngel from '../video/AlitaBattleAngel.mp4'
 import ArrowMoveDown from "../components/ArrowMouseDown";
 
 
