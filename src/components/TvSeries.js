@@ -10,7 +10,7 @@ import {Box, Heading, Text, Stack,} from '@chakra-ui/react'
 
 function TvSeries (){
     return(
-        <Box w="full" p="10px" bg="#0F0F11" h="800px"  fontFamily="poppins, sans-serif">
+        <Box w="full" p="10px" bg="#0F0F11"  fontFamily="poppins, sans-serif">
             <Stack align="center" mt="90px" px="15px">
                 <Heading align="center" color="#FBBB47" fontSize="16px" fontWeight="700">EVERYTHING PACKAGED FOR YOU</Heading>
                 <Heading align="center" color="white" fontWeight="900" >ALL THE TV SERIES YOU LOVE</Heading>

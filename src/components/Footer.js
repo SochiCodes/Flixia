@@ -20,7 +20,7 @@ import { AiFillInstagram,} from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <Box bg="#0F0F11" py="100px" w="full" h="400px" fontFamily="poppins, sans-serif">
+      <Box bg="#0F0F11" py="100px" w="full"  fontFamily="poppins, sans-serif">
         <Container maxWidth="container.xl">
           <Grid
             color="white"

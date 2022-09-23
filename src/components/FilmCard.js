@@ -7,7 +7,7 @@ import {Box, Heading, Text, Flex, Stack, Spacer} from '@chakra-ui/react'
 
 function FilmCard (){
     return(
-        <Stack align="center" direction="row" spacing="20px">
+        <Stack align="center" direction={["column", "column", "row"]} spacing="20px">
             <Box w="300px" h="410px" bgImage="/TheUndergroundRailroad.png" backgroundSize="cover">
                 <Stack p="20px" spacing="300px">
                     <Stack> 

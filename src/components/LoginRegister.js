@@ -26,7 +26,7 @@ function LoginRegister (){
         <Box w="full" h="700px" bg="#232428">
             <Stack py="100px" spacing="50px">
                 <Heading align="center" color="white" fontFamily="poppins">GET ON BOARD</Heading>
-                <Stack direction="row" justifyContent="center" color="#7D7D7D" spacing="60px">
+                <Stack direction="row" justifyContent="center" color="#7D7D7D" spacing={["0px","30px", "60px"]}>
                     <Stack w="500px" h="500px" p="30px">
                         <Box>
                             <Stack spacing="50px">

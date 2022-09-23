@@ -7,7 +7,7 @@ import {Box, Heading, Text, Image, Stack, Spacer} from '@chakra-ui/react'
 
 function Devices (){
     return(
-        <Stack align="center" direction="row" spacing="50px" color="white">
+        <Stack align="center" direction={["column", "row","row"]} spacing={["0px", "50px","50px"]} color="white">
             <Box w="270px" h="250" bgImage="../images/The Underground Railroad.png">
                 <Stack p="20px" spacing="20px">
                     <Box>
