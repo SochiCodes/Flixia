@@ -1651,6 +1651,11 @@
     "@chakra-ui/media-query" "3.2.6"
     "@chakra-ui/react-use-previous" "2.0.1"
 
+"@chakra-ui/skip-nav@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/skip-nav/-/skip-nav-2.0.10.tgz#d4ef16991e13f1adbfb7d87786dee98805fa9f92"
+  integrity sha512-fwIRmiJE6J+O1felQcxev6eKPCWv2ESrKqlWLLQHg6c68LyGC88UmPlCSELm44AWoek28bdaA7o8VdhvZSLtwA==
+
 "@chakra-ui/slider@2.0.11":
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/@chakra-ui/slider/-/slider-2.0.11.tgz#ff90a8883d52af9d7f5362714b8e838a05d4d133"

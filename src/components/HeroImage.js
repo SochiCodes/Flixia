@@ -47,13 +47,13 @@ function HeroImage(){
                 display="flex"
                 zIndex="2"
             >
-                <Flex py="28px" align="center" w="full">
-                    <Box  ml="50px">
+                <Flex py="28px" align="center" w="full" px={["30px", "20px", "28px"]}>
+                    <Box>
                         <Link>
                             <Image 
                                 src="/FlixiaLogo.png"
                                 objectFit='cover'
-                                h='30px'
+                                h={["20px", "30px", "30px"]}
                             />
                         </Link>
                     </Box>
@@ -62,14 +62,14 @@ function HeroImage(){
                             variant="outline" 
                             fontWeight="regular"
                             size="sm"
-                            w="120px"
+                            w={["74px", "120px", "120px"]}
                             color="white"
                             borderRadius="50px"
-                            mr="50px"
+                            
                             _hover={{bg:"grey"}}
                         >
-                    Login
-                </Button>
+                        Login
+                    </Button>
                     
                 </Flex>
             </Box>
@@ -88,9 +88,9 @@ function HeroImage(){
                 spacing="50px"
             >
                 
-                    <Stack>
-                        <Heading align="center" fontFamily="poppins, sans-serif" fontWeight="black" w="680px" fontSize="60px">UNLIMITED MOVIES, TV SHOWS AND MORE.</Heading>
-                        <Text align="center" fontWeight="light" color="#C5C5C5">Watch anywhere. Cancel anytime.</Text>
+                    <Stack align="center">
+                        <Heading align="center" fontFamily="poppins, sans-serif" fontWeight="black" w={["309px", "500px", "680px"]} fontSize={["30px", "40px", "60px"]}>UNLIMITED MOVIES, TV SHOWS AND MORE.</Heading>
+                        <Text align="center" fontWeight="light" color="#C5C5C5" w={["150px", "500px", "680px"]}>Watch anywhere. Cancel anytime.</Text>
                         </Stack>
                     <Stack>
                         <Button 
